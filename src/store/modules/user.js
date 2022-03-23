@@ -18,7 +18,7 @@ export default {
 
   // 修改用户信息
   mutations: {
-    updateName (state, payload) {
+    setUser (state, payload) {
       state.profile = payload
     }
   }

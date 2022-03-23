@@ -30,9 +30,9 @@ instance.interceptors.request.use(config => {
   return Promise.reject(err)
 })
 // res => res.data 取出data数据，将来调用接口的时候直接拿到的就是后台的数据
-instance.interceptors.response.use(res => res.date, err => {
+instance.interceptors.response.use(res => res.data, err => {
 // 401状态码 进入该函数
-  if (err.response && err.response.state.status === 401) {
+  if (err.response && err.response.status === 401) {
     //   清空无效用户信息
     // 跳转到登录页码
     // 跳转需要传参(当前路由地址)给登录页码
