@@ -3,4 +3,7 @@
   <router-view/>
   <div>sdfsdfas</div>
   <div>fasdfsafsdfsdaf</div>
+  gfgggfgdgfdgdfgf
+  fgfdgdf
+  fdgfdgd
 </template>
